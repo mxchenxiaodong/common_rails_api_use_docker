@@ -32,3 +32,15 @@ redis + pg + api
 
 ### pg 打开日志收集。
 > logging_collector = on
+
+---
+
+## 关于rails5-api
+
+生成:
+> rails 5.2.2 new project_name --api -T --database=postgresql
+> 仅使用api
+
+开启cors:
+> app/config/initializers/cors.rb
+
